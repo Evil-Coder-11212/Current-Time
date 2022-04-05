@@ -1,0 +1,15 @@
+@media screen and (max-width: 610px){
+  .container{
+      width: 95%;
+  }
+
+  .container>p{
+      font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 300px){
+  .container>p{
+      font-size: 30px;
+  }
+}

@@ -1,0 +1,50 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+:root {
+  --primary-color: rgb(26, 26, 26);
+  --secondary-color: rgb(126, 126, 126);
+  --font-family: Nunito, sans-serif;
+  --box-shadow: rgb(0, 0, 0) 1px 1px 3px 0px inset, rgba(48, 48, 48, 0.5) -1px -1px 3px 1px inset;
+  --all-transition: transform ease-in-out 0.3s 0s;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: var(--font-family);
+}
+
+.main-content{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+.container{
+  width: 600px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  background-color: var(--primary-color);
+}
+
+.container>p{
+  font-size: 60px;
+  color: var(--secondary-color);
+  font-weight: 100;
+      text-align: center;
+      padding: 5px;
+  transform: uppercase;
+  cursor: pointer;
+}
