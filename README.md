@@ -17,5 +17,5 @@ Stop Watch still in the process of making.
 
 ## Quotes for programmer
 ```
-Its not about comments its about organize.
+Its not about comments its about organizment.
 ```
